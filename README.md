@@ -77,9 +77,9 @@ This project analyzes Etsy listing data to answer key questions such as:
 - **Business Impact:** Expected results for the business
 
 - **Limitations:** What constraints or gaps exist
-==================================================================================================================================
+============================================================================================
 # <div align="center">RESEARCH</div>
-==================================================================================================================================
+============================================================================================
 ### 🌐 **Which Are the Best-Selling POD Products on Etsy?**
 
 I’m researching print-on-demand products to sell on Etsy that only require **digital artwork and marketing**, while the POD provider handles **printing, packaging, and shipping**.
@@ -87,29 +87,6 @@ I’m researching print-on-demand products to sell on Etsy that only require **d
 
 ### ⭐ **Using Google Trends for POD Product Research**
 💡 **Goal:** Identify which POD product category has been searched the most on Google over the past 5 years (2020–2025).
-
-Below is the list of product categories I’m comparing:
-
-### 🎯 **Chosen POD product to research is :** `tote bags`
-
-| Category              | Subcategories / Examples                                      |
-|-----------------------|---------------------------------------------------------------|
-| **Custom Apparel**        | T-shirts, Hoodies, Sweatshirts, Tank tops                     |
-| **Mug**                   | Ceramic mugs, Color-changing mugs, Espresso mugs, Travel mugs |
-| **Tote Bag**              | Cotton totes, All-over print totes                            |
-| **Phone Case**            | iPhone / Samsung cases, Tough / Slim cases                    |
-| **Stickers**              | Die-cut stickers, Kiss-cut stickers, Sticker sheets           |
-| **Hats**                  | Baseball caps, Trucker hats, Beanies                          |
-| **Pillows / Cushions**    | Pillow covers, Stuffed pillows, All-over print pillow designs|
-| **Blanket**               | Fleece blankets, Sherpa blankets, Woven blankets             |
-| **Wall Art**              | Posters, Canvas prints, Framed posters, Metal prints         |
-| **Doormat**               | Printed coir doormats, Rubber-backed doormats                |
-| **Drinkware**             | Stainless steel tumblers, Water bottles, Wine tumblers       |
-| **Calendar**              | Custom printed wall calendars                                 |
-| **Yoga Mat**              | Printed yoga mats                                             |
-| **Bedding**               | Duvet covers, Pillowcases, All-over print bed sets           |
-| **Pet Accessories**       | Pet bandanas, Pet beds, Pet bowls, Pet blankets              |
-| **Ornaments**             | Ceramic ornaments, Wood ornaments, Metal ornaments           |
 
 ### **BEFORE GETTING STARTED :**
 
@@ -128,9 +105,9 @@ Important Note: Etsy uses dynamic loading + anti-bot protections.
 Using code with standard HTML scraping can work as long as Etsy doesn’t block the request.
 
 If blocked, using headers, rotating proxies, or the Etsy API will be required.
-=======================================================================================================================================================================================
+============================================================================================
 # <div align="center">IN DEPTH</div>
-=======================================================================================================================================================================================
+============================================================================================
 ### 🧐 QUESTIONS
 
 - Which keywords in product titles and descriptions drive the most sales?
@@ -169,7 +146,7 @@ The main data fields to extract from Etsy's product page :
 | **old_price**          | `float`  | Original price of product              | Price of this variant before any discounts were applied (if available).                              |
 | **discount_percentage**| `float`               | Variant discount percentage             | Discount applied to this variant, calculated if both current and old prices are available.           |
 | **product_rating**         | `float`               | Average product rating                  | Average rating of the product out of 5 (e.g., 4.5).                                                 |
-| **nbr_reviews**            | `int`                 | Total number of reviews                 | Total count of reviews received by the product.                                                     |
+| **product_reviews**            | `int`                 | Total number of reviews                 | Total count of reviews received by the product.                                                     |
 ---
 #### **`product_niche` from `product_title` and `product_description`**
 | Field Name                 | Python Data Type       | Concise Definition                               |
@@ -189,5 +166,5 @@ All Reviews of the best-selling product
 
 ---
 
----
+
 
