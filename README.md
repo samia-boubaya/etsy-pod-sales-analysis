@@ -61,6 +61,7 @@ This project analyzes Etsy listing data to answer key questions such as:
 
 **Print-On-Demand (POD) Business** – What the project is about
 
+---
 ### ⚠️ PROBLEM
 
 No Free API exists to access the market data needed, requiring web scraping to gather insights – The challenge we’re addressing
@@ -96,23 +97,11 @@ Collect the data necessary to clean & analyze
 - **Business Impact:** Expected results for the business
 
 - **Limitations:** What constraints or gaps exist
-### 🧐 QUESTIONS
-
-- Which keywords in product titles and descriptions drive the most sales?
-
-- What keywords improve search visibility on Etsy?
-
-- Which product niches have the highest demand?
-
-- When is the best period to sell based on review trends?
-
-- Which price ranges generate the most sales?
-
-- Which country's customers are buying the most of this product?
 
 ============================================================================================
 # <div align="center">RESEARCH</div>
 ============================================================================================
+
 ### 🌐 **Which Are the Best-Selling POD Products on Etsy?**
 
 I’m researching print-on-demand products to sell on Etsy that only require **digital artwork and marketing**, while the POD provider handles **printing, packaging, and shipping**.
@@ -198,6 +187,7 @@ All Reviews of the best-selling product
 | **review_date**          | `date`           | The date when the customer posted the review             |
 
 ---
+
 
 
 
