@@ -57,7 +57,8 @@ This project analyzes Etsy listing data to answer key questions such as:
 * No demographic or behavioral buyer data.
 * Data collected from the French Etsy domain.
 * Product variations not fully captured due to rate limits.
----### 📝 BUSINESS IDEA
+---
+### 📝 BUSINESS IDEA
 
 **Print-On-Demand (POD) Business** – What the project is about
 
@@ -187,6 +188,7 @@ All Reviews of the best-selling product
 | **review_date**          | `date`           | The date when the customer posted the review             |
 
 ---
+
 
 
 
