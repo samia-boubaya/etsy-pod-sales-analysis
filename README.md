@@ -77,6 +77,7 @@ This project analyzes Etsy listing data to answer key questions such as:
 - **Business Impact:** Expected results for the business
 
 - **Limitations:** What constraints or gaps exist
+
 ============================================================================================
 # <div align="center">RESEARCH</div>
 ============================================================================================
@@ -165,6 +166,7 @@ All Reviews of the best-selling product
 | **review_date**          | `date`           | The date when the customer posted the review             |
 
 ---
+
 
 
 
