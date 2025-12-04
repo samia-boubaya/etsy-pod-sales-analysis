@@ -57,7 +57,45 @@ This project analyzes Etsy listing data to answer key questions such as:
 * No demographic or behavioral buyer data.
 * Data collected from the French Etsy domain.
 * Product variations not fully captured due to rate limits.
+---### 📝 BUSINESS IDEA
+
+**Print-On-Demand (POD) Business** – What the project is about
+
+### ⚠️ PROBLEM
+
+No Free API exists to access the market data needed, requiring web scraping to gather insights – The challenge we’re addressing
+
+### 🔰 SOLUTION FRAMEWORK
+
+Web scrape etsy for a specific POD product
+
+Collect the data necessary to clean & analyze
+
+
+| **Development**                                                                                                                                             | **Presentation**                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **Business Idea** → **Problem Definition** → **Data Research & Visualization** → **Insights** → **Interpretation** → **Implications** → **Business Impact** | **Limitations & Considerations** |
+
 ---
+### 📓 SECTION OVERVIEW
+
+- **Project / Business Idea:** What the project is about
+
+- **Problem:** The challenge we’re addressing
+
+- **Solution / Approach:** How we solve it
+
+- **Research & Plots:** How we analyzed data visually
+
+- **Insights:** What we discovered
+
+- **Interpretation:** Why it matters
+
+- **Implications:** What actions the business can take
+
+- **Business Impact:** Expected results for the business
+
+- **Limitations:** What constraints or gaps exist
 ### 📓 SECTION OVERVIEW
 
 - **Project / Business Idea:** What the project is about
@@ -166,6 +204,7 @@ All Reviews of the best-selling product
 | **review_date**          | `date`           | The date when the customer posted the review             |
 
 ---
+
 
 
 
