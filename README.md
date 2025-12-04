@@ -96,25 +96,19 @@ Collect the data necessary to clean & analyze
 - **Business Impact:** Expected results for the business
 
 - **Limitations:** What constraints or gaps exist
-### 📓 SECTION OVERVIEW
+### 🧐 QUESTIONS
 
-- **Project / Business Idea:** What the project is about
+- Which keywords in product titles and descriptions drive the most sales?
 
-- **Problem:** The challenge we’re addressing
+- What keywords improve search visibility on Etsy?
 
-- **Solution / Approach:** How we solve it
+- Which product niches have the highest demand?
 
-- **Research & Plots:** How we analyzed data visually
+- When is the best period to sell based on review trends?
 
-- **Insights:** What we discovered
+- Which price ranges generate the most sales?
 
-- **Interpretation:** Why it matters
-
-- **Implications:** What actions the business can take
-
-- **Business Impact:** Expected results for the business
-
-- **Limitations:** What constraints or gaps exist
+- Which country's customers are buying the most of this product?
 
 ============================================================================================
 # <div align="center">RESEARCH</div>
@@ -204,6 +198,7 @@ All Reviews of the best-selling product
 | **review_date**          | `date`           | The date when the customer posted the review             |
 
 ---
+
 
 
 
